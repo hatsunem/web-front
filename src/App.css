@@ -18,28 +18,86 @@ body {
   text-align: center;
 }
 
-.logo-and-search {
+.logo-and-search, .company-name {
   display: flex;
   align-items: center;
   float: left;
 }
 
-.menu {
+.logo-and-search img {
+  height: 60px;
+  width: 191px;
+  padding: 19px;
+}
+
+.menu, .sns {
   float: right;
 }
 
-img {
-  padding: 19px;
+.article {
+  width: 980px;
+  align-self: center;
+  clear: both;
+  margin: auto;
+}
+
+.article-header h1 {
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.article-header p {
+  color: #006F8E;
+  line-height: 42px;
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: 16px;
+}
+
+.company-name img {
+  width: 42px;
+  margin-right: 12px;
+}
+
+.company-info {
+  clear: both;
+  border: 1px solid #f5f5f5;
+  border-radius: 10px;
+}
+
+.company-info img {
+  width: 978px;
+  height: 398px;
+}
+
+.company-info .row {
+  height: 70px;
+}
+
+.company-info .row-item {
+  border: solid #f5f5f5;
+  border-width: 0px 1px 0px 0px;
+}
+
+.company-info .row-item, .row-item-last {
+  line-height: 70px;
+}
+
+.menu ul li {
+  line-height: 40px;
+  margin: 10px 0 0 10px;
+  color: #00A4BB;
+}
+
+.sns ul li {
+  margin: 10px 10px 0px 0px;
 }
 
 ul li {
   display: inline-block;
   list-style: none;
-  line-height: 40px;
-  margin: 10px 0 0 10px;
   font-size: 14px;
   color: #00A4BB;
-  padding: 0 10px;
 }
 
 .form-control {
