@@ -2,8 +2,10 @@ import React, { Component } from 'react';
 import './App.css';
 
 class App extends Component {
+
   render() {
-    return (
+
+    const header =
       <div>
         <div className="intro-bar">
           <p>Wantedlyは、月間200万人が利用する国内最大のビジネスSNSです</p>
@@ -27,7 +29,11 @@ class App extends Component {
             </div>
           </header>
         </div>
-      </div>
+      </div>;
+
+
+    return (
+      <div>{header}</div>
     );
   }
 }
